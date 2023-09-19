@@ -46,7 +46,7 @@ section {
     display: block;
     background: url(../imagem/minha-foto.webp) no-repeat;
     background-size: cover;
-    height:93.9vh;
+    height:93vh;
     width: 100vw;
     opacity: 0.6;
     
