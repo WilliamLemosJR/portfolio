@@ -44,9 +44,9 @@ a:hover , .ativo {
 
 section {
     display: block;
-    background: url(../imagem/minha-foto.webp) no-repeat;
+    background: url(../imagem/minha-foto1.webp) no-repeat;
     background-size: cover;
-    height:93vh;
+    height:93.9vh;
     width: 100vw;
     opacity: 0.6;
     
