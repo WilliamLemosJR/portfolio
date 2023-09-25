@@ -5,22 +5,6 @@
  }
 
  @media screen and (min-width: 992px) {
-    body {
-        width: 100%;
-        display: block;
-        margin: auto;
-        min-height: 100vh;
-        background-color: #191919;
-        font-family: sans-serif;
-    }
-
-    img {
-        display: flex;
-        align-items:center;
-        position: absolute;
-        border-radius: 0%;
-        top: 0;
-        left: 84%;
-    }
+   
     
  }
