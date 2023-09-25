@@ -3,20 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="src/css/contato.css">
+    <link rel="stylesheet" href="src/css/social-contato.css">
     <link rel="stylesheet" href="src/css/media-query.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a class="ativo" href="index.html">Inicio</a></li>
-            <li><a href="projetos.html">Projetos</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
+        <ul id="menu">
+            <li class="link-grupo"><a id="link" class="ativo" href="index.html">Inicio</a></li>
+            <li class="link-grupo"><a id="link" href="projetos.html">Projetos</a></li>
+            <li class="link-grupo"><a id="link" href="sobre.html">Sobre</a></li>
+            <li class="link-grupo"><a id="link" href="contato.html">Contato</a></li>
         </ul>
     </nav>
+
+    <main>
+
+        <section id="tele">
+            <iframe src="contatos-html/home.html" name="tela" id="tela" frameborder="0">
+                Seu navegador não é compatível com isso
+            </iframe>
+        </section>
+            
+        <section id="redes-sociais">
+            <a href="contatos-html/home.html" target="tela"><img class="img" src="src/imagem/logo-home.jpg" alt="home"></a><br>
+            <a href="contatos-html/github.html" target="tela"><img class="img"  src="src/imagem/logo-github.jpg" alt="github"></a><br>
+            <a href="contatos-html/facebook.html" target="tela"><img class="img" src="src/imagem/logo-facebook.jpg" alt="facebook"></a><br>
+            <a href="contatos-html/instagram.html" target="tela"><img class="img" src="src/imagem/logo-instagram.jpg" alt="instagram"></a><br>
+            <a href="contatos-html/youtube.html" target="tela"><img class="img" src="src/imagem/logo-youtube.jpg" alt="youtube"></a><br>
+            <a href="contatos-html/twitter.html" target="tela"><img class="img" src="src/imagem/logo-twitter.jpg" alt="twitter"></a>
+        </section>
+    </main>
+
+    
 
     <script src="src/js/index.js"></script>
 </body>

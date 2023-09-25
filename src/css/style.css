@@ -9,24 +9,24 @@
     box-sizing: border-box ;
 }
 
-body , html {
+body  {
     background-color: #191919;
     height: 100vh;
     width: 100vw;
 }
 
-ul {
+#menu {
     background-color: #202020;
     justify-content: center;
     display: flex;
 }
 
-li {
+.link-grupo {
     list-style: none; 
     display: block;
 }
 
-nav > ul > li > a {
+#link {
     color: white;
     display: flex;
     text-decoration: none;
@@ -40,11 +40,11 @@ nav > ul > li > a {
     font-size: 15px;
 }
 
-a:hover , .ativo {
+#link:hover , .ativo {
     opacity: 1;
 }
 
-h1 {
+.titulo {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -53,7 +53,7 @@ h1 {
     font-size: 40px;
 }
 
-img {
+.imagem-inicio {
     margin-top: 30px;
     border-radius: 50%;
     width: 100%;
@@ -61,9 +61,9 @@ img {
     opacity: 0.5;
 }
 
-footer{
+#roda-pe{
     margin:20px;
     color: white;
     text-align: center;
     font-style: italic;
-}
+} 
