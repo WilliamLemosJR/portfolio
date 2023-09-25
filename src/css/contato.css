@@ -47,12 +47,12 @@ main {
 
 section#tele {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 45%;
+    transform: translate(-55%, -45%);
 
     height: 627px;
-    width: 365px;
+    width: 311px;
     background: url(../imagem/frame-iphone.png) no-repeat;
 }
 
@@ -68,7 +68,7 @@ section#redes-sociais {
     text-align: right;
 }
 
-section#redes-sociais img {
+section#redes-sociais .img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -76,7 +76,7 @@ section#redes-sociais img {
     box-sizing: border-box;
 }
 
-section#redes-sociais img:hover {
+section#redes-sociais .img:hover {
     border: 2px solid rgba(255, 255, 255, 0.61);
     transform: translate(-3px,-3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
