@@ -1,6 +1,6 @@
 @charset "UTF-8" ;
 
- @media screen and (min-width:768px) and (max-width:992px) {
+ @media screen and (min-width:688px) and (max-width:1031px) {
 
     nav > ul > li > a {
         width: 150px;
@@ -10,7 +10,7 @@
     }
  }
 
- @media screen and (min-width: 992px) {
+ @media screen and (min-width: 1031px) {
     
     nav > ul > li > a {
         width: 200px;
