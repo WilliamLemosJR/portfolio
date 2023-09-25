@@ -49,7 +49,7 @@ section#tele {
     position: absolute;
     top: 55%;
     left: 45%;
-    transform: translate(-55%, -45%);
+    transform: translate(-50%, -55%);
 
     height: 627px;
     width: 311px;
