@@ -86,6 +86,7 @@ body  {
  .project-island {
     background-color: #f0f0f0;
     padding: 20px;
+    height: 100vh;
 }
 
 .project-list {
@@ -106,7 +107,7 @@ body  {
 }
 
 .project-list img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
