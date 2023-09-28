@@ -75,3 +75,50 @@ body  {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
  }
+
+ /* Estilos para a seção de projetos */
+ .project-island {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-list li {
+    width: calc(33.33% - 20px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.project-list img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-list h3 {
+    margin-top: 10px;
+}
+
+.project-list p {
+    font-size: 14px;
+    color: #333;
+}
+
+.project-list a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
