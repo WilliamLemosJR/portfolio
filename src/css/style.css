@@ -62,7 +62,10 @@ body  {
 }
 
 #roda-pe{
+    bottom: 0;
+    width: 100%;
     margin:20px;
+    padding: 10px 0;
     color: white;
     text-align: center;
     font-style: italic;
