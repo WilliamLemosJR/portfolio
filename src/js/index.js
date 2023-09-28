@@ -10,7 +10,7 @@ const projectsData = [
         title: "Projeto 2",
         description: "Descrição breve do Projeto 2.",
         image: "projeto2.jpg",
-        link: "detalhes_projeto2.html"
+        link: "cordel/index.html"
     },
     // Adicione mais projetos aqui conforme necessário
 ];
