@@ -2,9 +2,9 @@
 const projectsData = [
     {
         title: "Projeto 1",
-        description: "Descrição breve do Projeto 1.",
+        description: "Meu primeiro exercício de HTML e CSS!",
         image: "projeto1.jpg",
-        link: "detalhes_projeto1.html"
+        link: "projetoandroid/android.html"
     },
     {
         title: "Projeto 2",
