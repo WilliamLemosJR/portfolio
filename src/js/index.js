@@ -8,8 +8,8 @@ const projectsData = [
     },
     {
         title: "Projeto 2",
-        description: "Descrição breve do Projeto 2.",
-        image: "projeto2.jpg",
+        description: "Fiz um site com efeito Parallax",
+        image: "src/imagem/cordel2.jpeg",
         link: "cordel/index.html"
     },
     // Adicione mais projetos aqui conforme necessário
