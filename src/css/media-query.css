@@ -24,6 +24,9 @@
  }
 
  @media screen and (min-width: 1031px) {
+    body{
+        background-color: #f0f0f0;
+    }
     
     #link {
         width: 200px;

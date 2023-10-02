@@ -1,16 +1,22 @@
 // Exemplo de dados de projetos (substitua com seus próprios dados)
 const projectsData = [
     {
-        title: "Projeto 1",
+        title: "Projeto Android",
         description: "Meu primeiro exercício de HTML e CSS!",
         image: "src/imagem/android2.jpeg",
         link: "projetoandroid/android.html"
     },
     {
-        title: "Projeto 2",
+        title: "Projeto Cordel Moderno",
         description: "Fiz um site com efeito Parallax",
         image: "src/imagem/cordel2.jpeg",
         link: "cordel/index.html"
+    },
+    {
+        title: "Projeto Login",
+        description: "Fiz uma tela de login simples, somente front-end",
+        image: "src/imagem/login.jpeg",
+        link: "projeto-login/index.html"
     },
     // Adicione mais projetos aqui conforme necessário
 ];
